@@ -26,7 +26,7 @@ class App extends Component{
                 <div className="header-top__details">
                     <div className="logo">
                         <h3>Social Media Dashboard</h3>
-                        <p style={{fontSize: '10px', marginTop:'-5px'}}>Total Followers: 29,600</p>
+                        <p style={{fontSize: '10px', marginTop:'-10px'}}>Total Followers: 29,600</p>
                     </div>
                     <p style={{fontSize: '14px'}}> Dark Mode <button onClick={this.changeColor}>Toggle</button></p>
                 </div>
@@ -35,45 +35,57 @@ class App extends Component{
                     <div className="card__one">
                         <div className="top__color"></div>
                         <div className="card__details">
-                            <p style={{fontSize: '14px'}}><img alt="facebook" src={require('./images/icon-facebook.svg')}/>  @Nathan</p>
+                            <div className="name">
+                                <img alt="facebook" src={require('./images/icon-facebook.svg')}/>
+                                <p style={{fontSize: '14px'}} className="my-name">@Nathan</p>
+                            </div>
                             <div className="followers" style={{marginTop:'-40px'}}>
                                 <h2 style={{fontSize: '50px'}}>9000</h2>
                                 <p style={{fontSize: '10px', marginTop: '-40px', letterSpacing: '2px'}}>FOLLOWERS</p>
                             </div>
-                            <p style={{marginTop: '20px', fontSize:'12px'}}>12 Today</p>
+                            <p style={{marginTop: '20px', fontSize:'12px', color:'#317673'}}>12 Today</p>
 
                         </div>
                     </div>
                     <div className="card__two">
                         <div className="card__details">
-                            <p style={{fontSize: '14px'}}> <img alt="facebook" src={require('./images/icon-twitter.svg')}/> Twitter</p>
+                            <div className="name">
+                                <img alt="facebook" src={require('./images/icon-twitter.svg')}/>
+                                <p style={{fontSize: '14px'}} className="my-name">@Adeola2310</p>
+                            </div>
                             <div className="followers" style={{marginTop:'-40px'}}>
                                 <h2 style={{fontSize: '50px'}}>9000</h2>
                                 <p style={{fontSize: '10px', marginTop: '-40px', letterSpacing: '2px'}}>FOLLOWERS</p>
                             </div>
-                            <p style={{marginTop: '20px', fontSize:'12px'}}>12 Today</p>
+                            <p style={{marginTop: '20px', fontSize:'12px', color:'#317673'}}>12 Today</p>
 
                         </div>
                     </div>
                     <div className="card__three">
                         <div className="card__details">
-                            <p style={{fontSize: '14px'}}> <img src={require('./images/icon-instagram.svg')} alt="instagram"/> Instagram</p>
+                            <div className="name">
+                                <img alt="facebook" src={require('./images/icon-instagram.svg')}/>
+                                <p style={{fontSize: '14px'}} className="my-name">@the_neemee</p>
+                            </div>
                             <div className="followers" style={{marginTop:'-40px'}}>
                                 <h2 style={{fontSize: '50px'}}>11K</h2>
                                 <p style={{fontSize: '10px', marginTop: '-40px', letterSpacing: '2px'}}>FOLLOWERS</p>
                             </div>
-                            <p style={{marginTop: '20px', fontSize:'12px'}}>12 Today</p>
+                            <p style={{marginTop: '20px', fontSize:'12px', color:'#317673'}}>12 Today</p>
 
                         </div>
                     </div>
                     <div className="card__one">
                         <div className="card__details">
-                            <p style={{fontSize: '14px'}}> <img src={require('./images/icon-youtube.svg')}/> @nathan</p>
+                            <div className="name">
+                                <img alt="facebook" src={require('./images/icon-youtube.svg')}/>
+                                <p style={{fontSize: '14px'}} className="my-name">@Nathan</p>
+                            </div>
                             <div className="followers" style={{marginTop:'-40px'}}>
                                 <h2 style={{fontSize: '50px'}}>9000</h2>
                                 <p style={{fontSize: '10px', marginTop: '-40px', letterSpacing: '2px'}}>FOLLOWERS</p>
                             </div>
-                            <p style={{marginTop: '20px', fontSize:'12px'}}>12 Today</p>
+                            <p style={{marginTop: '20px', fontSize:'12px', color:'#317673'}}>12 Today</p>
 
                         </div>
                     </div>
@@ -93,7 +105,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-up.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#317673', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +120,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-up.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#317673', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +135,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-up.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#317673', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +150,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-up.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#317673', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +165,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-up.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#317673', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +180,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-up.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#317673', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +195,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-down.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#68394C', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +210,10 @@ class App extends Component{
                                 </div>
                                 <div className="bottom">
                                     <h2 style={{fontSize:'30px'}}>5000</h2>
-                                    <p style={{fontSize: '15px'}}>-30</p>
+                                    <div className="numb">
+                                        <img src={require("./images/icon-up.svg")}/>
+                                        <p style={{fontSize: '12px',  color:'#68394C', marginLeft:'4px'}}> 30%</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
