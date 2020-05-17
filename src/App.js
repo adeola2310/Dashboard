@@ -133,6 +133,54 @@ class App extends Component{
                                 </div>
                             </div>
                         </div>
+                        <div className="ov__card">
+                            <div className="ovcard__details">
+                                <div className="top">
+                                    <p style={{fontSize: '12px'}}>Page Viewers</p>
+                                    <img src={require('./images/icon-facebook.svg')} alt="page_viewer"/>
+                                </div>
+                                <div className="bottom">
+                                    <h2 style={{fontSize:'30px'}}>5000</h2>
+                                    <p style={{fontSize: '15px'}}>-30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="ov__card">
+                            <div className="ovcard__details">
+                                <div className="top">
+                                    <p style={{fontSize: '12px'}}>Page Viewers</p>
+                                    <img src={require('./images/icon-facebook.svg')} alt="page_viewer"/>
+                                </div>
+                                <div className="bottom">
+                                    <h2 style={{fontSize:'30px'}}>5000</h2>
+                                    <p style={{fontSize: '15px'}}>-30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="ov__card">
+                            <div className="ovcard__details">
+                                <div className="top">
+                                    <p style={{fontSize: '12px'}}>Page Viewers</p>
+                                    <img src={require('./images/icon-facebook.svg')} alt="page_viewer"/>
+                                </div>
+                                <div className="bottom">
+                                    <h2 style={{fontSize:'30px'}}>5000</h2>
+                                    <p style={{fontSize: '15px'}}>-30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="ov__card">
+                            <div className="ovcard__details">
+                                <div className="top">
+                                    <p style={{fontSize: '12px'}}>Page Viewers</p>
+                                    <img src={require('./images/icon-facebook.svg')} alt="page_viewer"/>
+                                </div>
+                                <div className="bottom">
+                                    <h2 style={{fontSize:'30px'}}>5000</h2>
+                                    <p style={{fontSize: '15px'}}>-30</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

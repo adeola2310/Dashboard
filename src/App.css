@@ -1,3 +1,8 @@
+.App{
+    padding: 10px;
+}
+
+
 .header-top__details{
     margin-top: 35px;
     display: flex;
@@ -42,7 +47,7 @@
     background-color: hsl(228, 45%, 44%);
     padding: 10px 15px;
     border-image-source: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     /*border-top: 5px solid cornflowerblue;*/
     border-top-style: solid;
     height: fit-content;
@@ -56,14 +61,14 @@
 .card__two{
     background-color: hsl(228, 45%, 44%);
     padding: 10px 15px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     border-top: 5px solid red;
     height: fit-content;
 }
 .card__three{
     background-color: hsl(228, 45%, 44%);
     padding: 10px 15px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     border-top: 5px solid darkred;
     height: fit-content;
 }
@@ -90,15 +95,15 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 25px;
-    padding: 30px 100px;
+    grid-row-gap: 70px;
+    padding: 10px 100px;
 }
 
 .ov__card{
     background-color: hsl(228, 45%, 44%);
     padding: 10px 15px;
     margin-top: -45px;
-    border-radius: 10px;
-    border-top: 5px solid cornflowerblue;
+    /*border-top: 5px solid cornflowerblue;*/
     height: fit-content;
 }
 
